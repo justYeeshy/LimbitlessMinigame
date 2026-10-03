@@ -1,0 +1,1667 @@
+﻿Log file open, 10/02/26 20:48:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=14892)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: bitlessJam
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 36826
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9457] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\justy\Documents\Unreal Projects\bitlessJam\bitlessJam.uproject" -AUTH_LOGIN=unused -AUTH_PASSWORD=3ae4306f4fff43db85a28a60ea46d6fe -AUTH_TYPE=exchangecode -epicapp=UE_5.6 -epicenv=Prod -EpicPortal -epicusername=yeeshy_ -epicuserid=c37afbdba45940a388cb86cebbceebce -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : loginid="374af613e189463fb2a859131b273772"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.446472
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-33F2FDEA45109C2976173E9B221EE922
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Binaries/Win64/*.target
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading Android ini files took 0.06 seconds
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.09 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-44394996
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=374af613e189463fb2a859131b273772
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.1-44394996+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (25H2) [10.0.26200.9457] (), CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz, GPU: Intel(R) Iris(R) Xe Graphics
+LogInit: Compiled (64-bit): Jul 28 2025 20:53:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=3ae4306f4fff43db85a28a60ea46d6fe -AUTH_TYPE=exchangecode -epicapp=UE_5.6 -epicenv=Prod -EpicPortal -epicusername=yeeshy_ -epicuserid=c37afbdba45940a388cb86cebbceebce -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.10.03-00.48.15:196][  0]LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2026.10.03-00.48.15:196][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.10.03-00.48.15:196][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.10.03-00.48.15:196][  0]LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+[2026.10.03-00.48.15:196][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2026.10.03-00.48.15:196][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2026.10.03-00.48.15:196][  0]LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+[2026.10.03-00.48.15:196][  0]LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+[2026.10.03-00.48.15:196][  0]LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.10.03-00.48.15:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.10.03-00.48.15:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.10.03-00.48.15:197][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.10.03-00.48.15:198][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1536"
+[2026.10.03-00.48.15:198][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="864"
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.10.03-00.48.15:199][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.10.03-00.48.15:200][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.10.03-00.48.15:200][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.10.03-00.48.15:203][  0]LogRHI: Using Default RHI: D3D12
+[2026.10.03-00.48.15:203][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2026.10.03-00.48.15:203][  0]LogRHI: Loading RHI module D3D12RHI
+[2026.10.03-00.48.15:206][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2026.10.03-00.48.15:206][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2026.10.03-00.48.15:339][  0]LogD3D12RHI: Intel Extensions Framework not supported by driver. Please check if a driver update is available.
+[2026.10.03-00.48.15:344][  0]LogD3D12RHI: Found D3D12 adapter 0: Intel(R) Iris(R) Xe Graphics (VendorId: 8086, DeviceId: 9a49, SubSysId: 14641025, Revision: 0001
+[2026.10.03-00.48.15:344][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.6, binding tier 3, wave ops supported, atomic64 unsupported
+[2026.10.03-00.48.15:344][  0]LogD3D12RHI:   Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 6033MB of shared system memory, 1 output[s], UMA:true
+[2026.10.03-00.48.15:345][  0]LogD3D12RHI:   Driver Version: 30.0.101.1404 (internal:30.0.101.1404, unified:101.1404)
+[2026.10.03-00.48.15:345][  0]LogD3D12RHI:      Driver Date: 2-18-2022
+[2026.10.03-00.48.15:364][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2026.10.03-00.48.15:364][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2026.10.03-00.48.15:364][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6033MB of shared system memory, 0 output[s], UMA:true
+[2026.10.03-00.48.15:364][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2026.10.03-00.48.15:364][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2026.10.03-00.48.15:364][  0]LogD3D12RHI: Adapter only supports up to Feature Level 'SM5', requested Feature Level was 'SM6'
+[2026.10.03-00.48.15:364][  0]LogRHI: RHI D3D12 with Feature Level SM6 is not supported on your system, attempting to fall back to RHI D3D11 with Feature Level SM5
+[2026.10.03-00.48.15:364][  0]LogRHI: Loading RHI module D3D11RHI
+[2026.10.03-00.48.15:369][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2026.10.03-00.48.15:369][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2026.10.03-00.48.15:369][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_1
+[2026.10.03-00.48.15:369][  0]LogD3D11RHI: D3D11 adapters:
+[2026.10.03-00.48.15:369][  0]LogD3D11RHI: Testing D3D11 Adapter 0:
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     VendorId    : 8086
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     DeviceId    : 9a49
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     SubSysId    : 14641025
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     Revision    : 0001
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     SharedSystemMemory : 6326743040 bytes
+[2026.10.03-00.48.15:370][  0]LogD3D11RHI:     AdapterLuid : 0 64539
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:    0. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_1)
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:       128/0/6033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086 UMA:true
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI: Testing D3D11 Adapter 1:
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     Description : Microsoft Basic Render Driver
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     VendorId    : 1414
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     DeviceId    : 008c
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     SubSysId    : 0000
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     Revision    : 0000
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     DedicatedVideoMemory : 0 bytes
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     SharedSystemMemory : 6326743040 bytes
+[2026.10.03-00.48.15:415][  0]LogD3D11RHI:     AdapterLuid : 0 65175
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_1)
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:       0/0/6033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414 UMA:true
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     VendorId    : 8086
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     DeviceId    : 9a49
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     SubSysId    : 14641025
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     Revision    : 0001
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     SharedSystemMemory : 6326743040 bytes
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI:     AdapterLuid : 0 64539
+[2026.10.03-00.48.15:418][  0]LogD3D11RHI: Integrated GPU (iGPU): true
+[2026.10.03-00.48.15:418][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2026.10.03-00.48.15:418][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.10.03-00.48.15:418][  0]LogHAL: Display: Platform has ~ 12 GB [12653486080 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.03-00.48.15:419][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.10.03-00.48.15:419][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.03-00.48.15:419][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.10.03-00.48.15:419][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.10.03-00.48.15:419][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.03-00.48.15:419][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.10.03-00.48.15:419][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.10.03-00.48.15:419][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.10.03-00.48.15:419][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2026.10.03-00.48.15:419][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2026.10.03-00.48.15:419][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.03-00.48.15:419][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.10.03-00.48.15:419][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/justy/Documents/Unreal Projects/bitlessJam/Saved/Config/WindowsEditor/Editor.ini]
+[2026.10.03-00.48.15:419][  0]LogInit: Computer: MALIKS_LAPTOP
+[2026.10.03-00.48.15:419][  0]LogInit: User: justy
+[2026.10.03-00.48.15:419][  0]LogInit: CPU Page size=4096, Cores=4
+[2026.10.03-00.48.15:419][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.10.03-00.48.15:419][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2026.10.03-00.48.15:419][  0]LogMemory: Memory total: Physical=11.8GB (12GB approx) Virtual=26.8GB
+[2026.10.03-00.48.15:419][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.10.03-00.48.15:419][  0]LogMemory: Process Physical Memory: 567.79 MB used, 578.68 MB peak
+[2026.10.03-00.48.15:419][  0]LogMemory: Process Virtual Memory: 528.09 MB used, 528.09 MB peak
+[2026.10.03-00.48.15:419][  0]LogMemory: Physical Memory: 10917.71 MB used,  1149.59 MB free, 12067.30 MB total
+[2026.10.03-00.48.15:419][  0]LogMemory: Virtual Memory: 17618.90 MB used,  9808.41 MB free, 27427.30 MB total
+[2026.10.03-00.48.15:419][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.03-00.48.15:422][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.10.03-00.48.15:426][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.10.03-00.48.15:426][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.10.03-00.48.15:427][  0]LogInit: Using OS detected language (en-US).
+[2026.10.03-00.48.15:427][  0]LogInit: Using OS detected locale (en-US).
+[2026.10.03-00.48.15:434][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.10.03-00.48.15:435][  0]LogInit: Setting process to per monitor DPI aware
+[2026.10.03-00.48.15:924][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2026.10.03-00.48.15:924][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2026.10.03-00.48.15:924][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2026.10.03-00.48.15:924][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.10.03-00.48.15:927][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2026.10.03-00.48.15:936][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-00.48.15:942][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2026.10.03-00.48.15:942][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.10.03-00.48.16:262][  0]LogRHI: Using Default RHI: D3D12
+[2026.10.03-00.48.16:262][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2026.10.03-00.48.16:262][  0]LogRHI: Loading RHI module D3D12RHI
+[2026.10.03-00.48.16:262][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2026.10.03-00.48.16:262][  0]LogD3D12RHI: Adapter only supports up to Feature Level 'SM5', requested Feature Level was 'SM6'
+[2026.10.03-00.48.16:262][  0]LogRHI: RHI D3D12 with Feature Level SM6 is not supported on your system, attempting to fall back to RHI D3D11 with Feature Level SM5
+[2026.10.03-00.48.16:262][  0]LogRHI: Loading RHI module D3D11RHI
+[2026.10.03-00.48.16:262][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2026.10.03-00.48.16:262][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2026.10.03-00.48.16:263][  0]LogWindows: Attached monitors:
+[2026.10.03-00.48.16:263][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1020), device: '\\.\DISPLAY1' [PRIMARY]
+[2026.10.03-00.48.16:263][  0]LogWindows: Found 1 attached monitors.
+[2026.10.03-00.48.16:263][  0]LogWindows: Gathering driver information using Windows Setup API
+[2026.10.03-00.48.16:263][  0]LogRHI: RHI Adapter Info:
+[2026.10.03-00.48.16:263][  0]LogRHI:             Name: Intel(R) Iris(R) Xe Graphics
+[2026.10.03-00.48.16:263][  0]LogRHI:   Driver Version: 30.0.101.1404 (internal:30.0.101.1404, unified:101.1404)
+[2026.10.03-00.48.16:263][  0]LogRHI:      Driver Date: 2-18-2022
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     GPU DeviceId: 0x9a49 (for the marketing name, search the web for "GPU Device Id")
+[2026.10.03-00.48.16:263][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2026.10.03-00.48.16:263][  0]LogNvidiaAftermath: Nvidia Aftermath is disabled in D3D11 due to instability issues.
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     VendorId    : 8086
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     DeviceId    : 9a49
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     SubSysId    : 14641025
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     Revision    : 0001
+[2026.10.03-00.48.16:263][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2026.10.03-00.48.16:264][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.10.03-00.48.16:264][  0]LogD3D11RHI:     SharedSystemMemory : 6326743040 bytes
+[2026.10.03-00.48.16:264][  0]LogD3D11RHI:     AdapterLuid : 0 64539
+[2026.10.03-00.48.16:285][  0]LogNvidiaAftermath: Aftermath is not loaded.
+[2026.10.03-00.48.16:308][  0]LogD3D11RHI: Intel Extensions loaded requested version for UAVOverlap: 1.1.0
+[2026.10.03-00.48.16:308][  0]LogD3D11RHI: Intel Extensions loaded requested version Atomics Version: 3.4.1
+[2026.10.03-00.48.16:310][  0]LogD3D11RHI: Intel Extensions Framework enabled
+[2026.10.03-00.48.16:310][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2026.10.03-00.48.16:310][  0]LogD3D11RHI: Async texture creation enabled
+[2026.10.03-00.48.16:310][  0]LogD3D11RHI: D3D11_MAP_WRITE_NO_OVERWRITE for dynamic buffer SRVs is supported
+[2026.10.03-00.48.16:310][  0]LogD3D11RHI: Array index from any shader is supported
+[2026.10.03-00.48.16:324][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.10.03-00.48.16:329][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D11"
+[2026.10.03-00.48.16:329][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D11"
+[2026.10.03-00.48.16:329][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM5"
+[2026.10.03-00.48.16:329][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM5"
+[2026.10.03-00.48.16:329][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.10.03-00.48.16:334][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyReport_0.log" -log="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyLog_0.log" -project="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject"  -platform=all'
+[2026.10.03-00.48.16:334][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyReport_0.log" -log="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyLog_0.log" -project="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject"  -platform=all" ]
+[2026.10.03-00.48.16:360][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.03-00.48.16:360][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.03-00.48.16:360][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.03-00.48.16:360][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.03-00.48.16:360][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.03-00.48.16:360][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.03-00.48.16:360][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2026.10.03-00.48.16:360][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2026.10.03-00.48.16:361][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.10.03-00.48.16:363][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.10.03-00.48.16:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.10.03-00.48.16:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.10.03-00.48.16:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.10.03-00.48.16:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.10.03-00.48.16:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2026.10.03-00.48.16:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.10.03-00.48.16:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.10.03-00.48.16:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.10.03-00.48.16:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.10.03-00.48.16:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.10.03-00.48.16:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.10.03-00.48.16:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.10.03-00.48.16:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.10.03-00.48.16:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.03-00.48.16:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.03-00.48.16:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.03-00.48.16:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.03-00.48.16:502][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.03-00.48.16:578][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.10.03-00.48.16:588][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2026.10.03-00.48.16:588][  0]LogRendererCore: Ray tracing is disabled. Reason: not supported by current RHI.
+[2026.10.03-00.48.16:591][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2026.10.03-00.48.16:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.10.03-00.48.16:591][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.10.03-00.48.16:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.03-00.48.16:591][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.10.03-00.48.16:907][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+[2026.10.03-00.48.16:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.03-00.48.16:908][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.10.03-00.48.16:908][  0]LogZenServiceInstance: Found Zen config default=C:/Users/justy/AppData/Local/UnrealEngine/Common/Zen/Data
+[2026.10.03-00.48.16:909][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2026.10.03-00.48.16:909][  0]LogZenServiceInstance: Installed version at 'C:/Users/justy/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2026.10.03-00.48.16:911][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2026.10.03-00.48.17:116][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2026.10.03-00.48.17:117][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.208 seconds
+[2026.10.03-00.48.17:120][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2026.10.03-00.48.17:138][  0]LogDerivedDataCache: C:/Users/justy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.02 seconds.
+[2026.10.03-00.48.17:138][  0]LogDerivedDataCache: Display: C:/Users/justy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.13ms. RandomReadSpeed=237.44MBs, RandomWriteSpeed=87.75MBs. Assigned SpeedClass 'Local'
+[2026.10.03-00.48.17:139][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/justy/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2026.10.03-00.48.17:139][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2026.10.03-00.48.17:139][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2026.10.03-00.48.17:140][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2026.10.03-00.48.17:140][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.10.03-00.48.17:140][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2026.10.03-00.48.17:140][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2026.10.03-00.48.17:141][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/Shaders/WorkingDirectory/11356/).
+[2026.10.03-00.48.17:141][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/justy/AppData/Local/Temp/UnrealShaderWorkingDir/FB9230AE4CBB1EB9308326BA44666842/'.
+[2026.10.03-00.48.17:141][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.10.03-00.48.17:142][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.03-00.48.17:142][  0]LogShaderCompilers: Display: Using 5 local workers for shader compilation
+[2026.10.03-00.48.17:145][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.03-00.48.17:146][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.03-00.48.17:147][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.03-00.48.19:105][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2026.10.03-00.48.20:096][  0]LogSlate: Using FreeType 2.10.0
+[2026.10.03-00.48.20:099][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.10.03-00.48.20:121][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.10.03-00.48.20:121][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2026.10.03-00.48.20:122][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.10.03-00.48.20:122][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2026.10.03-00.48.20:162][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+[2026.10.03-00.48.20:166][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.03-00.48.20:196][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/CachedAssetRegistry_*.bin.
+[2026.10.03-00.48.20:777][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.03-00.48.20:777][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.03-00.48.20:855][  0]LogDeviceProfileManager: Active device profile: [00000180460E1180][000001803BB3A000 66] WindowsEditor
+[2026.10.03-00.48.20:855][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.03-00.48.20:859][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-00.48.20:863][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2026.10.03-00.48.20:863][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.03-00.48.20:863][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.03-00.48.20:875][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Invalid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2026.10.03-00.48.20:877][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyReport_1.log" -log="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyLog_1.log" -project="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject"  -Device=Win64@MALIKS_LAPTOP'
+[2026.10.03-00.48.20:877][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyReport_1.log" -log="C:/Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/TurnkeyLog_1.log" -project="C:/Users/justy/Documents/Unreal Projects/bitlessJam/bitlessJam.uproject"  -Device=Win64@MALIKS_LAPTOP" -nocompile -nocompileuat ]
+[2026.10.03-00.48.20:929][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:930][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.10.03-00.48.20:930][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:930][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:931][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.10.03-00.48.20:932][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:932][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:936][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2026.10.03-00.48.20:937][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2026.10.03-00.48.20:939][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2026.10.03-00.48.20:940][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:941][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:941][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.20:944][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2026.10.03-00.48.20:944][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2026.10.03-00.48.20:946][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.10.03-00.48.20:946][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.21:441][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: b9eee5c9820a4f277a0ddd8cc502fa3226dbd156), compiling. 
+[2026.10.03-00.48.22:955][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2026.10.03-00.48.26:319][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.10.03-00.48.26:319][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.26:334][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 7263b85e1f998a572af091325a63c2d599bba454), compiling. 
+[2026.10.03-00.48.27:142][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.10.03-00.48.27:142][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.27:150][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 03e33f8cb083522d0fedc06d9badfa9e4bd6c0bb), compiling. 
+[2026.10.03-00.48.33:380][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.10.03-00.48.33:380][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.03-00.48.33:440][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: b1b9163abe5cd411d912581222af5490db330c69), compiling. Is special engine material.
+[2026.10.03-00.48.36:440][  0]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.397 seconds, threshold is 0.300 s), will parallelize next time.
+[2026.10.03-00.49.29:667][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.03-00.49.29:667][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.03-00.49.29:667][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.03-00.49.29:667][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.03-00.49.29:667][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.10.03-00.49.29:674][  0]LogStaticMesh: Display: Building static mesh MatineeCam_SM (Required Memory Estimate: 6.455061 MB)...
+[2026.10.03-00.49.29:706][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM
+[2026.10.03-00.49.29:826][  0]LogStaticMesh: Display: Building static mesh Sphere (Required Memory Estimate: 0.756426 MB)...
+[2026.10.03-00.49.29:831][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineMeshes/Sphere.Sphere
+[2026.10.03-00.49.29:893][  0]LogStaticMesh: Display: Building static mesh EditorCube (Required Memory Estimate: 0.02689 MB)...
+[2026.10.03-00.49.29:894][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCube.EditorCube
+[2026.10.03-00.49.29:897][  0]LogStaticMesh: Display: Building static mesh EditorSphere (Required Memory Estimate: 6.269289 MB)...
+[2026.10.03-00.49.29:924][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/EditorSphere.EditorSphere
+[2026.10.03-00.49.29:934][  0]LogStaticMesh: Display: Building static mesh EditorCylinder (Required Memory Estimate: 0.714823 MB)...
+[2026.10.03-00.49.29:937][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCylinder.EditorCylinder
+[2026.10.03-00.49.29:941][  0]LogStaticMesh: Display: Building static mesh EditorPlane (Required Memory Estimate: 0.05422 MB)...
+[2026.10.03-00.49.29:944][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorPlane.EditorPlane
+[2026.10.03-00.49.29:955][  0]LogStaticMesh: Display: Building static mesh EditorSkySphere (Required Memory Estimate: 7.540967 MB)...
+[2026.10.03-00.49.29:985][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/EditorSkySphere.EditorSkySphere
+[2026.10.03-00.49.30:035][  0]LogStaticMesh: Display: Building static mesh SM_Sequencer_Node (Required Memory Estimate: 0.08356 MB)...
+[2026.10.03-00.49.30:050][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/VREditor/TransformGizmo/SM_Sequencer_Node.SM_Sequencer_Node
+[2026.10.03-00.49.30:075][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Base (Required Memory Estimate: 1.522692 MB)...
+[2026.10.03-00.49.30:092][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/Camera/SM_CraneRig_Base.SM_CraneRig_Base
+[2026.10.03-00.49.30:096][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Arm (Required Memory Estimate: 0.0249 MB)...
+[2026.10.03-00.49.30:102][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/Camera/SM_CraneRig_Arm.SM_CraneRig_Arm
+[2026.10.03-00.49.30:106][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Mount (Required Memory Estimate: 0.292356 MB)...
+[2026.10.03-00.49.30:111][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/Camera/SM_CraneRig_Mount.SM_CraneRig_Mount
+[2026.10.03-00.49.30:115][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Body (Required Memory Estimate: 1.454466 MB)...
+[2026.10.03-00.49.30:140][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/Camera/SM_CraneRig_Body.SM_CraneRig_Body
+[2026.10.03-00.49.30:144][  0]LogStaticMesh: Display: Building static mesh SM_RailRig_Track (Required Memory Estimate: 2.117645 MB)...
+[2026.10.03-00.49.30:163][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/Camera/SM_RailRig_Track.SM_RailRig_Track
+[2026.10.03-00.49.30:168][  0]LogStaticMesh: Display: Building static mesh SM_RailRig_Mount (Required Memory Estimate: 2.380135 MB)...
+[2026.10.03-00.49.30:206][  0]LogStaticMesh: Built static mesh [0.04s] /Engine/EditorMeshes/Camera/SM_RailRig_Mount.SM_RailRig_Mount
+[2026.10.03-00.49.30:243][  0]LogStaticMesh: Display: Building static mesh SplineEditorMesh (Required Memory Estimate: 0.094715 MB)...
+[2026.10.03-00.49.30:244][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorLandscapeResources/SplineEditorMesh.SplineEditorMesh
+[2026.10.03-00.49.30:294][  0]LogStaticMesh: Display: Building static mesh Cube (Required Memory Estimate: 0.083707 MB)...
+[2026.10.03-00.49.30:296][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/BasicShapes/Cube.Cube
+[2026.10.03-00.49.30:344][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Drop_Item_From_ContentBrowser...
+[2026.10.03-00.49.30:351][  0]LogAudioDerivedData: Display: Drop_Item_From_ContentBrowser compressed to 7.28% (from 192KB to 14KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:351][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.Drop_Item_From_ContentBrowser: Duration=1.02 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=14355 bytes, ChunkN=0)
+[2026.10.03-00.49.30:353][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Gizmo_Handle_Clicked...
+[2026.10.03-00.49.30:358][  0]LogAudioDerivedData: Display: Gizmo_Handle_Clicked compressed to 6.69% (from 190KB to 12KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:359][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Gizmo_Handle_Clicked.Gizmo_Handle_Clicked: Duration=1.01 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=13051 bytes, ChunkN=0)
+[2026.10.03-00.49.30:360][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Object_PickUp...
+[2026.10.03-00.49.30:364][  0]LogAudioDerivedData: Display: Object_PickUp compressed to 8.12% (from 160KB to 13KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:364][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Object_PickUp.Object_PickUp: Duration=0.85 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=13299 bytes, ChunkN=0)
+[2026.10.03-00.49.30:365][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Object_Snaps_To_Another_Actor...
+[2026.10.03-00.49.30:371][  0]LogAudioDerivedData: Display: Object_Snaps_To_Another_Actor compressed to 6.88% (from 201KB to 13KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:371][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.Object_Snaps_To_Another_Actor: Duration=1.07 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=14169 bytes, ChunkN=0)
+[2026.10.03-00.49.30:371][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Object_Snaps_To_Grid...
+[2026.10.03-00.49.30:376][  0]LogAudioDerivedData: Display: Object_Snaps_To_Grid compressed to 5.50% (from 215KB to 11KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:377][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Object_Snaps_To_Grid.Object_Snaps_To_Grid: Duration=1.15 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=12121 bytes, ChunkN=0)
+[2026.10.03-00.49.30:377][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Scaling_Down...
+[2026.10.03-00.49.30:383][  0]LogAudioDerivedData: Display: Scaling_Down compressed to 5.72% (from 177KB to 10KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:383][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Scaling_Down.Scaling_Down: Duration=0.94 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=10363 bytes, ChunkN=0)
+[2026.10.03-00.49.30:384][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Scaling_Up...
+[2026.10.03-00.49.30:388][  0]LogAudioDerivedData: Display: Scaling_Up compressed to 6.05% (from 162KB to 9KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:388][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Scaling_Up.Scaling_Up: Duration=0.87 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=10083 bytes, ChunkN=0)
+[2026.10.03-00.49.30:389][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Selection_Changes...
+[2026.10.03-00.49.30:393][  0]LogAudioDerivedData: Display: Selection_Changes compressed to 3.10% (from 190KB to 5KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.10.03-00.49.30:394][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Selection_Changes.Selection_Changes: Duration=1.01 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=6043 bytes, ChunkN=0)
+[2026.10.03-00.49.30:401][  0]LogStaticMesh: Display: Building static mesh SnapGridPlaneMesh (Required Memory Estimate: 0.059454 MB)...
+[2026.10.03-00.49.30:402][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/SnapGrid/SnapGridPlaneMesh.SnapGridPlaneMesh
+[2026.10.03-00.49.30:406][  0]LogStaticMesh: Display: Building static mesh PlaneTranslationHandle (Required Memory Estimate: 0.189357 MB)...
+[2026.10.03-00.49.30:408][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/TransformGizmo/PlaneTranslationHandle.PlaneTranslationHandle
+[2026.10.03-00.49.30:410][  0]LogStaticMesh: Display: Building static mesh RotationHandleFull (Required Memory Estimate: 6.20107 MB)...
+[2026.10.03-00.49.30:436][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/TransformGizmo/RotationHandleFull.RotationHandleFull
+[2026.10.03-00.49.30:439][  0]LogStaticMesh: Display: Building static mesh RotationHandleIndicator (Required Memory Estimate: 0.419229 MB)...
+[2026.10.03-00.49.30:441][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/TransformGizmo/RotationHandleIndicator.RotationHandleIndicator
+[2026.10.03-00.49.30:444][  0]LogStaticMesh: Display: Building static mesh RotationHandleQuarter (Required Memory Estimate: 1.44741 MB)...
+[2026.10.03-00.49.30:451][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/RotationHandleQuarter.RotationHandleQuarter
+[2026.10.03-00.49.30:453][  0]LogStaticMesh: Display: Building static mesh StartRotationHandleIndicator (Required Memory Estimate: 0.830293 MB)...
+[2026.10.03-00.49.30:457][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/StartRotationHandleIndicator.StartRotationHandleIndicator
+[2026.10.03-00.49.30:460][  0]LogStaticMesh: Display: Building static mesh TransformGizmoFreeRotation (Required Memory Estimate: 43.612814 MB)...
+[2026.10.03-00.49.31:135][  0]LogStaticMesh: Built static mesh [0.68s] /Engine/VREditor/TransformGizmo/TransformGizmoFreeRotation.TransformGizmoFreeRotation
+[2026.10.03-00.49.31:179][  0]LogStaticMesh: Display: Building static mesh TranslateArrowHandle (Required Memory Estimate: 0.240406 MB)...
+[2026.10.03-00.49.31:193][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/TranslateArrowHandle.TranslateArrowHandle
+[2026.10.03-00.49.31:196][  0]LogStaticMesh: Display: Building static mesh UniformScaleHandle (Required Memory Estimate: 0.140998 MB)...
+[2026.10.03-00.49.31:204][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/UniformScaleHandle.UniformScaleHandle
+[2026.10.03-00.49.31:208][  0]LogStaticMesh: Display: Building static mesh BoundingBoxCorner (Required Memory Estimate: 0.240406 MB)...
+[2026.10.03-00.49.31:211][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/TransformGizmo/BoundingBoxCorner.BoundingBoxCorner
+[2026.10.03-00.49.31:213][  0]LogStaticMesh: Display: Building static mesh BoundingBoxEdge (Required Memory Estimate: 0.08356 MB)...
+[2026.10.03-00.49.31:215][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/TransformGizmo/BoundingBoxEdge.BoundingBoxEdge
+[2026.10.03-00.49.31:221][  0]LogStaticMesh: Display: Building static mesh SM_CineCam (Required Memory Estimate: 8.902487 MB)...
+[2026.10.03-00.49.31:322][  0]LogStaticMesh: Built static mesh [0.10s] /Engine/EditorMeshes/Camera/SM_CineCam.SM_CineCam
+[2026.10.03-00.49.31:325][  0]LogStaticMesh: Display: Building static mesh S_1_Unit_Plane (Required Memory Estimate: 0.054254 MB)...
+[2026.10.03-00.49.31:326][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.S_1_Unit_Plane
+[2026.10.03-00.49.31:330][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.10.03-00.49.31:364][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.03-00.49.31:365][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.03-00.49.31:365][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2026.10.03-00.49.31:365][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2026.10.03-00.49.31:369][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.10.03-00.49.31:369][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.10.03-00.49.31:370][  0]LogLiveCoding: Display: First instance in process group "UE_bitlessJam_0xbe4d32ee", spawning console
+[2026.10.03-00.49.31:375][  0]LogLiveCoding: Display: Waiting for server
+[2026.10.03-00.49.31:395][  0]LogSlate: Border
+[2026.10.03-00.49.31:395][  0]LogSlate: BreadcrumbButton
+[2026.10.03-00.49.31:395][  0]LogSlate: Brushes.Title
+[2026.10.03-00.49.31:395][  0]LogSlate: ColorPicker.ColorThemes
+[2026.10.03-00.49.31:395][  0]LogSlate: Default
+[2026.10.03-00.49.31:395][  0]LogSlate: Icons.Save
+[2026.10.03-00.49.31:395][  0]LogSlate: Icons.Toolbar.Settings
+[2026.10.03-00.49.31:395][  0]LogSlate: ListView
+[2026.10.03-00.49.31:395][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.10.03-00.49.31:395][  0]LogSlate: SoftwareCursor_Grab
+[2026.10.03-00.49.31:395][  0]LogSlate: TableView.DarkRow
+[2026.10.03-00.49.31:395][  0]LogSlate: TableView.Row
+[2026.10.03-00.49.31:395][  0]LogSlate: TreeView
+[2026.10.03-00.49.31:617][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.03-00.49.31:619][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.659 ms
+[2026.10.03-00.49.31:653][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.10.03-00.49.31:654][  0]LogInit: XR: MultiViewport is Disabled
+[2026.10.03-00.49.31:654][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.10.03-00.49.31:673][  0]LogTurnkeySupport: Turnkey Device: Win64@Maliks_Laptop: (Name=Maliks_Laptop, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26200.0, Flags="Device_InstallSoftwareValid")
+[2026.10.03-00.49.31:691][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.10.03-00.49.32:115][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.03-00.49.32:115][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) Iris(R) Xe Graphics
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   NPU:       yes
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT: Interface availability:
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   GPU: yes
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   RDG: no
+[2026.10.03-00.49.32:196][  0]LogNNERuntimeORT:   NPU: yes
+[2026.10.03-00.49.32:278][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.03-00.49.32:278][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) Iris(R) Xe Graphics
+[2026.10.03-00.49.32:492][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.03-00.49.32:492][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.03-00.49.32:513][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.10.03-00.49.32:533][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.10.03-00.49.32:605][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.10.03-00.49.32:611][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2026.10.03-00.49.32:611][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.10.03-00.49.32:611][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:51573'.
+[2026.10.03-00.49.32:615][  0]LogUdpMessaging: Display: Added local interface '10.10.13.46' to multicast group '230.0.0.1:6666'
+[2026.10.03-00.49.32:617][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.10.03-00.49.32:740][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 8DB2D10A011141D58000000000009100 | Instance: F3023011463D36BF2D8363AEA85280BF (MALIKS_LAPTOP-11356).
+[2026.10.03-00.49.32:829][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.03-00.49.32:829][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.03-00.49.32:837][  0]LogTimingProfiler: Initialize
+[2026.10.03-00.49.32:837][  0]LogTimingProfiler: OnSessionChanged
+[2026.10.03-00.49.32:837][  0]LoadingProfiler: Initialize
+[2026.10.03-00.49.32:837][  0]LoadingProfiler: OnSessionChanged
+[2026.10.03-00.49.32:837][  0]LogNetworkingProfiler: Initialize
+[2026.10.03-00.49.32:837][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.10.03-00.49.32:837][  0]LogMemoryProfiler: Initialize
+[2026.10.03-00.49.32:837][  0]LogMemoryProfiler: OnSessionChanged
+[2026.10.03-00.49.33:115][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.10.03-00.49.33:137][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.10.03-00.49.33:147][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-00.49.33:147][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-00.49.33:305][  0]SourceControl: Revision control is disabled
+[2026.10.03-00.49.33:323][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2026.10.03-00.49.33:323][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2026.10.03-00.49.33:323][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.10.03-00.49.33:323][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.10.03-00.49.33:331][  0]SourceControl: Revision control is disabled
+[2026.10.03-00.49.33:339][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2026.10.03-00.49.33:490][  0]LogStaticMesh: Display: Building static mesh SM_MediaPlateScreen (Required Memory Estimate: 0.010915 MB)...
+[2026.10.03-00.49.33:497][  0]LogStaticMesh: Built static mesh [0.01s] /MediaPlate/SM_MediaPlateScreen.SM_MediaPlateScreen
+[2026.10.03-00.49.33:530][  0]LogCollectionManager: Loaded 0 collections in 0.001745 seconds
+[2026.10.03-00.49.33:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justy/Documents/Unreal Projects/bitlessJam/Saved/Collections/' took 0.00s
+[2026.10.03-00.49.33:535][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justy/Documents/Unreal Projects/bitlessJam/Content/Developers/justy/Collections/' took 0.00s
+[2026.10.03-00.49.33:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justy/Documents/Unreal Projects/bitlessJam/Content/Collections/' took 0.00s
+[2026.10.03-00.49.33:595][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.10.03-00.49.33:595][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.10.03-00.49.33:595][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2026.10.03-00.49.33:595][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2026.10.03-00.49.33:646][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2026.10.03-00.49.33:646][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.10.03-00.49.33:646][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.10.03-00.49.33:646][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2026.10.03-00.49.33:664][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2026-10-03T00:49:33.664Z using C
+[2026.10.03-00.49.33:664][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.9278.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=bitlessJam, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2026.10.03-00.49.33:665][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.10.03-00.49.33:665][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2026.10.03-00.49.33:670][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2026.10.03-00.49.33:670][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2026.10.03-00.49.33:670][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2026.10.03-00.49.33:670][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000086
+[2026.10.03-00.49.33:671][  0]LogFab: Plugin initialized. VersionName: 0.0.9 (Version: 9) - Engine Version 5.6.1-44394996+++UE5+Release-5.6
+[2026.10.03-00.49.33:719][  0]LogUObjectArray: 42346 objects as part of root set at end of initial load.
+[2026.10.03-00.49.33:719][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.10.03-00.49.33:833][  0]LogEngine: Initializing Engine...
+[2026.10.03-00.49.33:974][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.10.03-00.49.33:975][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2026.10.03-00.49.34:240][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.10.03-00.49.34:263][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.10.03-00.49.34:288][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.10.03-00.49.34:344][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.10.03-00.49.34:344][  0]LogInit: Texture streaming: Enabled
+[2026.10.03-00.49.34:355][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2026.10.03-00.49.34:358][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.10.03-00.49.34:368][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.10.03-00.49.34:368][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.10.03-00.49.34:370][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.10.03-00.49.34:370][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.03-00.49.34:370][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.03-00.49.34:370][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.03-00.49.34:370][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.03-00.49.34:370][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.03-00.49.34:370][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.03-00.49.34:380][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.03-00.49.34:932][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.10.03-00.49.34:933][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.03-00.49.34:935][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.03-00.49.34:935][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.03-00.49.34:936][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.10.03-00.49.34:937][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.10.03-00.49.34:940][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.10.03-00.49.34:940][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.10.03-00.49.34:940][  0]LogInit: FAudioDevice initialized with ID 1.
+[2026.10.03-00.49.34:941][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.10.03-00.49.34:941][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2026.10.03-00.49.34:953][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.03-00.49.34:964][  0]LogInit: Undo buffer set to 256 MB
+[2026.10.03-00.49.34:965][  0]LogInit: Transaction tracking system initialized
+[2026.10.03-00.49.35:101][  0]LocalizationService: Localization service is disabled
+[2026.10.03-00.49.35:293][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2026.10.03-00.49.35:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justy/Documents/Unreal Projects/bitlessJam/Content/' took 0.00s
+[2026.10.03-00.49.35:491][  0]LogStaticMesh: Display: Building static mesh Sphere (Required Memory Estimate: 1.522765 MB)...
+[2026.10.03-00.49.35:493][  0]LogStaticMesh: Display: Building static mesh Cylinder (Required Memory Estimate: 0.815833 MB)...
+[2026.10.03-00.49.35:495][  0]LogStaticMesh: Display: Building static mesh Cone (Required Memory Estimate: 0.410497 MB)...
+[2026.10.03-00.49.35:502][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Cylinder.Cylinder
+[2026.10.03-00.49.35:505][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Cone.Cone
+[2026.10.03-00.49.35:508][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/BasicShapes/Sphere.Sphere
+[2026.10.03-00.49.35:510][  0]LogStaticMesh: Display: Building static mesh Plane (Required Memory Estimate: 0.010915 MB)...
+[2026.10.03-00.49.35:521][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Plane.Plane
+[2026.10.03-00.49.35:556][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.10.03-00.49.35:576][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.10.03-00.49.35:576][  0]LogPython: Using Python 3.11.8
+[2026.10.03-00.49.35:772][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.03-00.49.36:605][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.10.03-00.49.36:903][  0]LogEditorDataStorage: Initializing
+[2026.10.03-00.49.36:910][  0]LogEditorDataStorage: Initialized
+[2026.10.03-00.49.36:923][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2026.10.03-00.49.37:159][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.10.03-00.49.37:171][  0]SourceControl: Revision control is disabled
+[2026.10.03-00.49.37:171][  0]LogUnrealEdMisc: Loading editor; pre map load, took 83.358
+[2026.10.03-00.49.37:175][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.10.03-00.49.37:180][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-00.49.37:180][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-00.49.37:211][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.03-00.49.37:216][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.10.03-00.49.37:294][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2026.10.03-00.49.37:294][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2026.10.03-00.49.37:298][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.10.03-00.49.37:298][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.03-00.49.37:298][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.03-00.49.37:639][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/justy/Documents/Unreal Projects/bitlessJam/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/IT/MHSUN7EJKDAAL8CVT31B9U which is not in a mounted directory. Call will be ignored.
+[2026.10.03-00.49.37:656][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2026.10.03-00.49.37:712][  0]LogStaticMesh: Display: Building static mesh SM_SkySphere (Required Memory Estimate: 6.269349 MB)...
+[2026.10.03-00.49.37:714][  0]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 1 out of 16 tries.
+[2026.10.03-00.49.37:778][  0]LogStaticMesh: Built static mesh [0.07s] /Engine/EngineSky/SM_SkySphere.SM_SkySphere
+[2026.10.03-00.49.38:122][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.03-00.49.38:149][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.03-00.49.38:162][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.03-00.49.38:175][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2026.10.03-00.49.38:175][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2026.10.03-00.49.38:175][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.03-00.49.38:190][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2026.10.03-00.49.38:527][  0]LogWorldPartition: Display: WorldPartition initialize took 1.22 sec
+[2026.10.03-00.49.38:847][  0]LogAssetRegistry: Display: Asset registry cache written as 66.6 MiB to ../../../../../../Users/justy/Documents/Unreal Projects/bitlessJam/Intermediate/CachedAssetRegistry_*.bin
+[2026.10.03-00.49.39:052][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.10.03-00.49.39:090][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.10.03-00.49.39:091][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.10.03-00.49.39:094][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.397ms to complete.
+[2026.10.03-00.49.39:112][  0]LogUnrealEdMisc: Total Editor Startup Time, took 85.298
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: ================================================
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: Total job queries 1,101, among them cache hits 140 (12.72%), DDC hits 493 (44.78%), Duplicates 133 (12.08%)
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: Tracking 828 distinct input hashes that result in 515 distinct outputs (62.20%)
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: RAM used: 1.48 MiB of 614.40 MiB budget. Usage: 0.24%
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: Shaders Compiled: 267
+[2026.10.03-00.49.39:115][  0]LogShaderCompilers: Display: Jobs assigned 317, completed 267 (84.23%)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Average time worker was idle: 0.63 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 15.29 s, longest 51.06 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Job execution time: average 9.63 s, max 17.64 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 27.70 s, max 52.38
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Shader code size: total 1.952 MiB, numShaders 290, average 6.896 KiB, min 424 B, max 31.645 KiB
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 67.80 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Jobs were issued in 64 batches (only local compilation was used), average 4.95 jobs/batch
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Average processing rate: 3.94 jobs/sec
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Total thread time: 321.007 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Total thread preprocess time: 19.758 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Percentage time preprocessing: 6.16%
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Effective parallelization: 4.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 5 - 0.946920
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   23 times, average 1.67 sec, max 2.06 sec, min 0.87 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.47 sec, max 1.65 sec, min 1.30 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 1.34 sec, max 1.44 sec, min 1.16 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.27 sec, max 1.64 sec, min 0.90 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   23 times, average 1.27 sec, max 2.23 sec, min 0.42 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                                                  FVelocityPS - 11.93% of total time (compiled   23 times, average 1.67 sec, max 2.06 sec, min 0.87 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.11% of total time (compiled   27 times, average 1.20 sec, max 1.60 sec, min 0.62 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.28% of total time (compiled   24 times, average 1.24 sec, max 1.68 sec, min 0.84 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                                                  FVelocityVS - 9.11% of total time (compiled   23 times, average 1.27 sec, max 2.23 sec, min 0.42 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.76% of total time (compiled   26 times, average 0.96 sec, max 1.79 sec, min 0.50 sec)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Materials Translated:    141
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Material Translation Only: 0.07 s (42%)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.03-00.49.39:116][  0]LogShaderCompilers: Display: ================================================
+[2026.10.03-00.49.39:241][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2026.10.03-00.49.39:661][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-00.49.39:847][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-00.49.40:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-00.49.40:189][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-00.49.40:449][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:450][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:450][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:451][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:451][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:451][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:451][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:452][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:452][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:453][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:453][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:454][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:454][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:454][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:455][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:455][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:455][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:456][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:456][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.03-00.49.40:457][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.10.03-00.49.40:871][  0]LogSlate: Took 0.001056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.10.03-00.49.40:900][  0]LogSlate: Took 0.013519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.10.03-00.49.40:917][  0]LogSlate: Took 0.014932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.10.03-00.49.42:979][  0]LogStall: Startup...
+[2026.10.03-00.49.42:983][  0]LogStall: Startup complete.
+[2026.10.03-00.49.43:010][  0]LogLoad: (Engine Initialization) Total time: 89.20 seconds
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: ================================================
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Total job queries 1,207, among them cache hits 141 (11.68%), DDC hits 581 (48.14%), Duplicates 138 (11.43%)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Tracking 928 distinct input hashes that result in 602 distinct outputs (64.87%)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: RAM used: 2.38 MiB of 614.40 MiB budget. Usage: 0.39%
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Shaders Compiled: 267
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Jobs assigned 317, completed 267 (84.23%)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Average time worker was idle: 0.63 s
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 15.29 s, longest 51.06 s
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Job execution time: average 9.63 s, max 17.64 s
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 27.70 s, max 52.38
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Shader code size: total 1.952 MiB, numShaders 290, average 6.896 KiB, min 424 B, max 31.645 KiB
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 67.80 s
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Jobs were issued in 64 batches (only local compilation was used), average 4.95 jobs/batch
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Average processing rate: 3.94 jobs/sec
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Total thread time: 321.007 s
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Total thread preprocess time: 22.736 s
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Percentage time preprocessing: 7.08%
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Effective parallelization: 4.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 5 - 0.946920
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   23 times, average 1.67 sec, max 2.06 sec, min 0.87 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.47 sec, max 1.65 sec, min 1.30 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 1.34 sec, max 1.44 sec, min 1.16 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.27 sec, max 1.64 sec, min 0.90 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   23 times, average 1.27 sec, max 2.23 sec, min 0.42 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                                                  FVelocityPS - 11.93% of total time (compiled   23 times, average 1.67 sec, max 2.06 sec, min 0.87 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.11% of total time (compiled   27 times, average 1.20 sec, max 1.60 sec, min 0.62 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.28% of total time (compiled   24 times, average 1.24 sec, max 1.68 sec, min 0.84 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                                                  FVelocityVS - 9.11% of total time (compiled   23 times, average 1.27 sec, max 2.23 sec, min 0.42 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.76% of total time (compiled   26 times, average 0.96 sec, max 1.79 sec, min 0.50 sec)
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Materials Translated:    142
+[2026.10.03-00.49.43:722][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.10.03-00.49.43:723][  0]LogShaderCompilers: Display: Material Translation Only: 0.08 s (42%)
+[2026.10.03-00.49.43:723][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.03-00.49.43:723][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.03-00.49.43:723][  0]LogShaderCompilers: Display: ================================================
+[2026.10.03-00.49.43:859][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.10.03-00.49.43:859][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.10.03-00.49.44:036][  0]LogSlate: Took 0.000682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.10.03-00.49.44:173][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-00.49.44:176][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.03-00.49.44:731][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.10.03-00.49.44:736][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 559.861 ms
+[2026.10.03-00.49.45:420][  1]LogMeshUtilities: Finished distance field build in 1.5s - 49x49x49 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 92% occupied, 0 triangles, EditorCube
+[2026.10.03-00.49.45:607][  1]LogAssetRegistry: AssetRegistryGather time 2.0336s: AssetDataDiscovery 0.1239s, AssetDataGather 1.8224s, StoreResults 0.0873s. Wall time 85.4490s.
+	NumCachedDirectories 0. NumUncachedDirectories 1451. NumCachedFiles 0. NumUncachedFiles 7376.
+	BackgroundTickInterruptions 0.
+[2026.10.03-00.49.45:672][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2026.10.03-00.49.45:692][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2026.10.03-00.49.45:694][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2026.10.03-00.49.46:078][  1]LogStreaming: Display: FlushAsyncLoading(410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473): 64 QueuedPackages, 0 AsyncPackages
+[2026.10.03-00.49.46:102][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.408574 seconds (Found 7352 uncontrolled assets)
+[2026.10.03-00.49.46:169][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_5 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:185][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5K/CE7OWOIDJIL69HHH3KR4JJ) ...
+[2026.10.03-00.49.46:190][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5K/CE7OWOIDJIL69HHH3KR4JJ.StaticMesh_HLOD0_Instancing_5
+[2026.10.03-00.49.46:195][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:211][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5S/7KG1M6Z4DAY7L4W6MCJF27) ...
+[2026.10.03-00.49.46:216][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5S/7KG1M6Z4DAY7L4W6MCJF27.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:222][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:238][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/BY/3VWWK6AVEYXW9NSZV4QD8O) ...
+[2026.10.03-00.49.46:243][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/BY/3VWWK6AVEYXW9NSZV4QD8O.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:249][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:265][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/KN/UD3G3TJ9US3TGIJTNAMJMZ) ...
+[2026.10.03-00.49.46:269][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/KN/UD3G3TJ9US3TGIJTNAMJMZ.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:275][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:290][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/O3/WPW7CIF61XJVNXEFKBLWZN) ...
+[2026.10.03-00.49.46:295][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/O3/WPW7CIF61XJVNXEFKBLWZN.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:301][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:317][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/VP/TFSQO5ISVRSGN8PURAZRAC) ...
+[2026.10.03-00.49.46:322][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/VP/TFSQO5ISVRSGN8PURAZRAC.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:326][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:343][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/27/Y7IFHWJO5J7WX6YC6J5N8M) ...
+[2026.10.03-00.49.46:347][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/27/Y7IFHWJO5J7WX6YC6J5N8M.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:352][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:369][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/4G/XQMADMPIF27EYUX6I1GTO8) ...
+[2026.10.03-00.49.46:373][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/4G/XQMADMPIF27EYUX6I1GTO8.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:378][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:394][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/KH/TF80JEHHCZ7LCUGGAY96O6) ...
+[2026.10.03-00.49.46:399][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/KH/TF80JEHHCZ7LCUGGAY96O6.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:404][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:419][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/L7/D6T95MI6OZRA70MGB00GTO) ...
+[2026.10.03-00.49.46:426][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/L7/D6T95MI6OZRA70MGB00GTO.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:431][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:448][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/ZE/CG8IV7D3WBMHLQ6603TTIN) ...
+[2026.10.03-00.49.46:453][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/ZE/CG8IV7D3WBMHLQ6603TTIN.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:460][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:475][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/CH/NXO39JTGOM7IJ8IAANES8J) ...
+[2026.10.03-00.49.46:481][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/CH/NXO39JTGOM7IJ8IAANES8J.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:487][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:502][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/EN/UXSY68YATHVWIP3MCFBSRN) ...
+[2026.10.03-00.49.46:509][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/EN/UXSY68YATHVWIP3MCFBSRN.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:515][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:532][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GH/HNSUWP8J18J3DNWN1LPW2V) ...
+[2026.10.03-00.49.46:537][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GH/HNSUWP8J18J3DNWN1LPW2V.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:544][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:558][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/TQ/ZTXE1THS1FHPKQYJWEVTF1) ...
+[2026.10.03-00.49.46:568][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/TQ/ZTXE1THS1FHPKQYJWEVTF1.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:574][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:590][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/US/YUBYQ1LC69AYEHAQJXQ9LS) ...
+[2026.10.03-00.49.46:596][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/US/YUBYQ1LC69AYEHAQJXQ9LS.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:603][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:618][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/XD/80DOKOIVDWN29O7YL417GZ) ...
+[2026.10.03-00.49.46:626][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/XD/80DOKOIVDWN29O7YL417GZ.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:632][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:647][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/6L/SFJTJ7A2NHMW798CZKNG9F) ...
+[2026.10.03-00.49.46:655][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/6L/SFJTJ7A2NHMW798CZKNG9F.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:662][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:678][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/BX/4SG4FMH15YA0SVXI9O6643) ...
+[2026.10.03-00.49.46:684][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/BX/4SG4FMH15YA0SVXI9O6643.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:691][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:707][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/GD/I9ZBXPRHNR38HFE4CGO97F) ...
+[2026.10.03-00.49.46:712][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/GD/I9ZBXPRHNR38HFE4CGO97F.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:718][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:734][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/NN/XOZPH9N4V9E7YMF75PLFY5) ...
+[2026.10.03-00.49.46:743][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/NN/XOZPH9N4V9E7YMF75PLFY5.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:744][  1]LogMeshUtilities: Finished distance field build in 2.8s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 0 triangles, Sphere
+[2026.10.03-00.49.46:749][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:749][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:765][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/Z1/B4WSZCAN5NCW6K68K1C1JN) ...
+[2026.10.03-00.49.46:772][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/1U/XR77NRVSKIGOSP4YVKP3NF.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:772][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/Z1/B4WSZCAN5NCW6K68K1C1JN.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:778][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:783][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:794][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/CI/GUD4QJTP4O4BIRXI49O2Z3) ...
+[2026.10.03-00.49.46:802][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/CI/GUD4QJTP4O4BIRXI49O2Z3.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:806][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/GQ/1BZWR5HPTCP13J5TGSIKZF.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:812][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:813][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:828][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/L4/7CG5YH1S7YPZD02MVZK1JJ) ...
+[2026.10.03-00.49.46:836][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/L4/7CG5YH1S7YPZD02MVZK1JJ.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:836][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/RX/WYTIO89IYQQD4U5E09826I.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:843][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:852][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:859][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/XH/IO72E5L6ZIXCPCY5ZV1LFB) ...
+[2026.10.03-00.49.46:867][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/XH/IO72E5L6ZIXCPCY5ZV1LFB.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:875][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/2FOTWI9AYF007OAQ81AIHY.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:882][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:892][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:897][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/HV/8VPJR9FG4DY9IWHOO36TXC) ...
+[2026.10.03-00.49.46:905][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/HV/8VPJR9FG4DY9IWHOO36TXC.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:915][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/S1/MGYFJ10ERA3LBZ2NVR21ZS.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:922][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:932][  1]LogMeshUtilities: Finished distance field build in 1.3s - 35x35x49 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 98% occupied, 0 triangles, EditorCylinder
+[2026.10.03-00.49.46:932][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:937][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/EI/M2ZU794Z9KQ8NTXCDK9OW9) ...
+[2026.10.03-00.49.46:945][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/EI/M2ZU794Z9KQ8NTXCDK9OW9.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:954][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/I5/8LF7F9DUELVHUUAUULV8S7.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:960][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:962][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:976][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/SL/5E8AUJWD53HZZ1JZDPXMN5) ...
+[2026.10.03-00.49.46:983][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/SL/5E8AUJWD53HZZ1JZDPXMN5.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:985][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ED/2PX2Y3KHHIEMEGAZ5FDODJ.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.46:989][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.46:989][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:005][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/24/4YD3X92ICGPSMS70GKHT4Y) ...
+[2026.10.03-00.49.47:013][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/24/4YD3X92ICGPSMS70GKHT4Y.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:013][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ED/OQA1ZBDPHZ8CO1PTJ6DYR7.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:020][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:024][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:035][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/P9/RHBSJUA9AR5R6PSGE6GSKS) ...
+[2026.10.03-00.49.47:044][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/P9/RHBSJUA9AR5R6PSGE6GSKS.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:047][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/YX/2HMYI4TTW5FS9ZJCVXXLUJ.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:051][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:051][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:066][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/YB/Z3BCR01JF9KCFXCU4JNRPX) ...
+[2026.10.03-00.49.47:075][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/YB/Z3BCR01JF9KCFXCU4JNRPX.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:075][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ZC/44F80QYMSROPN0PXL8W7DI.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:081][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:081][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:097][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/3M/N9P6ZW1I4HD8A397EUC3YK) ...
+[2026.10.03-00.49.47:103][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/3M/N9P6ZW1I4HD8A397EUC3YK.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:104][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/LH/00MBAVOF59YWK5C1K0L6QD.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:111][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:114][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:126][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/ZC/1HI0WPWA2RUF32WFUFAFSA) ...
+[2026.10.03-00.49.47:135][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/ZC/1HI0WPWA2RUF32WFUFAFSA.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:137][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/GZ/56B0AQM0TFG4O338HPSUV0.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:141][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:143][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:157][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/1Y/9FNLWIO8XRBTLI1FIUODLB) ...
+[2026.10.03-00.49.47:163][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/1Y/9FNLWIO8XRBTLI1FIUODLB.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:164][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/NS/S7UX3VHWK2FE7F1VTGY4Q4.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:255][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:255][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:269][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/RA/OXSUFS9AD8OBAN9ORA0KHV) ...
+[2026.10.03-00.49.47:277][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/V4/HDYW8NQLCV8S1NG7EBC73D.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:278][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/RA/OXSUFS9AD8OBAN9ORA0KHV.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:283][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:284][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:299][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/UU/FSLVQWEHZHSYDLFAI1UF1I) ...
+[2026.10.03-00.49.47:306][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/UU/FSLVQWEHZHSYDLFAI1UF1I.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:306][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/CZ/OANN28HN8QI6DGM822TLEF.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:312][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:313][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:328][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YN/HZS8TMI8YA3C3PGKQSDH5W) ...
+[2026.10.03-00.49.47:334][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YN/HZS8TMI8YA3C3PGKQSDH5W.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:335][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/K6/OQ1ND4KJYR3CXOLQ04FQD3.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:342][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:345][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:358][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/OT/59JQU6VL27FICKT2N8ROJS) ...
+[2026.10.03-00.49.47:365][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/OT/59JQU6VL27FICKT2N8ROJS.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:368][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/RA/B67YQHSPFIOZSRSA5UPH7F.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:372][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:374][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:387][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/OY/YZHBAUXS47ZBW0KQJ7IQ60) ...
+[2026.10.03-00.49.47:394][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/OY/YZHBAUXS47ZBW0KQJ7IQ60.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:397][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/EE/3Z1KFDTN295GSTNSTMWV8B.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:403][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:409][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:419][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/NU/FDDZ9WSY9MW9WII6FVJKI9) ...
+[2026.10.03-00.49.47:425][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/NU/FDDZ9WSY9MW9WII6FVJKI9.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:431][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/YA/84Y48Q6J7MAEPYO91F2W3X.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:431][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:436][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:447][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/WE/9DAOSERJEIV3XKZ25XY8S4) ...
+[2026.10.03-00.49.47:454][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/WE/9DAOSERJEIV3XKZ25XY8S4.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:457][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/ZI/FCZX8TQ0MTDRVT82RD635B.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:466][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:466][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:480][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/0E/C0GHL79EJZYDUEAPIYALYW) ...
+[2026.10.03-00.49.47:487][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/58/HVLDTOB47BH89LD9IMV2MQ.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:487][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/0E/C0GHL79EJZYDUEAPIYALYW.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.47:493][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2026.10.03-00.49.47:510][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/47/LLGNVOXM8XJU38OS1ZC4E7) ...
+[2026.10.03-00.49.47:515][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/47/LLGNVOXM8XJU38OS1ZC4E7.StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.49.48:689][  2]LogMeshUtilities: Finished distance field build in 3.1s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 0 triangles, EditorSphere
+[2026.10.03-00.49.49:825][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 14.198908
+[2026.10.03-00.49.49:828][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.10.03-00.49.49:835][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16.153198
+[2026.10.03-00.49.50:778][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.10.03-00.49.51:045][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 17.302660
+[2026.10.03-00.49.51:050][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 503699492
+[2026.10.03-00.49.51:050][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17.302660, Update Interval: 334.249084
+[2026.10.03-00.49.56:003][ 75]LogMeshUtilities: Finished distance field build in 8.5s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, EditorSkySphere
+[2026.10.03-00.50.00:282][119]LogMeshUtilities: Finished distance field build in 1.1s - 42x42x42 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 83% occupied, 0 triangles, Cone
+[2026.10.03-00.50.00:436][119]LogMeshUtilities: Finished distance field build in 1.3s - 42x42x42 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 96% occupied, 0 triangles, Sphere
+[2026.10.03-00.50.03:102][145]LogMeshUtilities: Finished distance field build in 2.6s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_5
+[2026.10.03-00.50.08:374][191]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 1 out of 16 tries.
+[2026.10.03-00.50.08:375][191]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 2 segments. Attempt 1 out of 16 tries.
+[2026.10.03-00.50.10:663][211]LogMeshUtilities: Finished distance field build in 10.2s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, SM_SkySphere
+[2026.10.03-00.50.17:142][267]LogDerivedDataCache: C:/Users/justy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.03-00.50.19:292][285]LogMeshUtilities: Finished distance field build in 8.6s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.50.34:968][393]LogMeshUtilities: Finished distance field build in 15.7s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.50.38:669][398]LogMeshUtilities: Finished distance field build in 19.4s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 67% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.50.46:354][698]LogMeshUtilities: Finished distance field build in 7.7s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.50.58:983][878]LogMeshUtilities: Finished distance field build in 12.6s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.00:905][883]LogMeshUtilities: Finished distance field build in 14.5s - 126x126x126 sparse distance field, 2.4Mb total, 0.1Mb always loaded, 69% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.06:459][900]LogMeshUtilities: Finished distance field build in 5.5s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.15:711][928]LogMeshUtilities: Finished distance field build in 9.2s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.17:064][932]LogMeshUtilities: Finished distance field build in 10.6s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.20:973][944]LogMeshUtilities: Finished distance field build in 3.6s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.27:626][964]LogMeshUtilities: Finished distance field build in 6.5s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.29:699][970]LogMeshUtilities: Finished distance field build in 8.6s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 63% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.33:777][982]LogMeshUtilities: Finished distance field build in 4.0s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 49% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.35:069][986]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.37:731][994]LogMeshUtilities: Finished distance field build in 3.9s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.42:623][  9]LogMeshUtilities: Finished distance field build in 4.8s - 126x126x126 sparse distance field, 2.1Mb total, 0.1Mb always loaded, 58% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.50:936][ 34]LogMeshUtilities: Finished distance field build in 8.2s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.52:139][ 37]LogMeshUtilities: Finished distance field build in 9.4s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 61% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.51.55:467][ 47]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.06:911][ 81]LogMeshUtilities: Finished distance field build in 11.4s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.09:676][ 90]LogMeshUtilities: Finished distance field build in 14.2s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.13:884][102]LogMeshUtilities: Finished distance field build in 4.2s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.19:881][120]LogMeshUtilities: Finished distance field build in 5.8s - 126x126x35 sparse distance field, 0.9Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.20:783][123]LogMeshUtilities: Finished distance field build in 6.7s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 43% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.24:940][136]LogMeshUtilities: Finished distance field build in 4.1s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 48% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.32:001][157]LogMeshUtilities: Finished distance field build in 7.0s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.32:338][158]LogMeshUtilities: Finished distance field build in 7.4s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 47% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.39:119][178]LogMeshUtilities: Finished distance field build in 6.7s - 126x126x126 sparse distance field, 2.5Mb total, 0.1Mb always loaded, 73% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.40:516][182]LogMeshUtilities: Finished distance field build in 1.3s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.43:935][192]LogShaderCompilers: Display: ================================================
+[2026.10.03-00.52.43:936][192]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-00.52.43:936][192]LogShaderCompilers: Display: Total job queries 1,220, among them cache hits 148 (12.13%), DDC hits 583 (47.79%), Duplicates 138 (11.31%)
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Tracking 934 distinct input hashes that result in 648 distinct outputs (69.38%)
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: RAM used: 2.51 MiB of 614.40 MiB budget. Usage: 0.41%
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Shaders Compiled: 351
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Jobs assigned 351, completed 351 (100%)
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Average time worker was idle: 0.46 s
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Time job spent in pending queue: average 17.88 s, longest 72.02 s
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Job execution time: average 12.97 s, max 33.03 s
+[2026.10.03-00.52.43:938][192]LogShaderCompilers: Display: Job life time (pending + execution): average 30.84 s, max 78.30
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Shader code size: total 2.563 MiB, numShaders 374, average 7.02 KiB, min 424 B, max 31.645 KiB
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 146.19 s
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Jobs were issued in 86 batches (only local compilation was used), average 4.08 jobs/batch
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Average processing rate: 2.40 jobs/sec
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Total thread time: 691.262 s
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Total thread preprocess time: 26.51 s
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Percentage time preprocessing: 3.83%
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Effective parallelization: 4.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 4 - 1.182134
+[2026.10.03-00.52.43:939][192]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkVS (compiled   19 times, average 3.79 sec, max 11.25 sec, min 0.68 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    4 times, average 2.91 sec, max 7.26 sec, min 1.30 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    4 times, average 2.90 sec, max 7.59 sec, min 1.16 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    4 times, average 2.86 sec, max 7.61 sec, min 0.90 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   47 times, average 2.82 sec, max 10.00 sec, min 0.62 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.35% of total time (compiled   49 times, average 2.73 sec, max 9.92 sec, min 0.51 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.21% of total time (compiled   47 times, average 2.82 sec, max 10.00 sec, min 0.62 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                                             FDebugViewModeVS - 12.36% of total time (compiled   45 times, average 1.90 sec, max 7.97 sec, min 0.50 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkVS - 10.42% of total time (compiled   19 times, average 3.79 sec, max 11.25 sec, min 0.68 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display:                                                  FVelocityPS - 5.54% of total time (compiled   23 times, average 1.67 sec, max 2.06 sec, min 0.87 sec)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Materials Translated:    142
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Material Translation Only: 0.08 s (42%)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.03-00.52.43:940][192]LogShaderCompilers: Display: ================================================
+[2026.10.03-00.52.44:832][195]LogMeshUtilities: Finished distance field build in 5.6s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.50:311][212]LogMeshUtilities: Finished distance field build in 5.4s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 58% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.52.58:700][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2026.10.03-00.52.58:742][249]LogStall: Shutdown...
+[2026.10.03-00.52.58:742][249]LogStall: Shutdown complete.
+[2026.10.03-00.52.58:786][249]LogSlate: Window 'bitlessJam - Unreal Editor' being destroyed
+[2026.10.03-00.52.58:964][249]Cmd: QUIT_EDITOR
+[2026.10.03-00.52.58:964][250]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.10.03-00.52.58:974][250]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.03-00.53.01:022][250]LogMeshUtilities: Finished distance field build in 10.7s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.53.01:441][250]LogMeshUtilities: Finished distance field build in 11.1s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.10.03-00.53.01:441][250]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.03-00.53.01:542][250]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.03-00.53.01:563][250]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-00.53.01:564][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-00.53.01:565][250]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.10.03-00.53.01:577][250]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.03-00.53.01:578][250]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.10.03-00.53.01:582][250]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.03-00.53.01:595][250]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.03-00.53.01:595][250]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.10.03-00.53.01:597][250]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.10.03-00.53.01:603][250]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.10.03-00.53.01:603][250]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.03-00.53.01:603][250]LogAudio: Display: Audio Device unregistered from world 'Untitled_1'.
+[2026.10.03-00.53.01:603][250]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.03-00.53.01:606][250]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.10.03-00.53.01:608][250]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.10.03-00.53.01:621][250]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.03-00.53.01:621][250]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.03-00.53.01:626][250]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.10.03-00.53.01:632][250]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.03-00.53.01:632][250]LogExit: Preparing to exit.
+[2026.10.03-00.53.01:689][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2026.10.03-00.53.02:851][250]LogEditorDataStorage: Deinitializing
+[2026.10.03-00.53.03:018][250]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.03-00.53.03:065][250]LogExit: Editor shut down
+[2026.10.03-00.53.03:067][250]LogExit: Transaction tracking system shut down
+[2026.10.03-00.53.03:364][250]LogExit: Object subsystem successfully closed.
+[2026.10.03-00.53.03:404][250]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.03-00.53.03:587][250]LogMemoryProfiler: Shutdown
+[2026.10.03-00.53.03:589][250]LogNetworkingProfiler: Shutdown
+[2026.10.03-00.53.03:589][250]LoadingProfiler: Shutdown
+[2026.10.03-00.53.03:590][250]LogTimingProfiler: Shutdown
+[2026.10.03-00.53.03:594][250]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.03-00.53.03:595][250]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.03-00.53.03:906][250]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.03-00.53.03:944][250]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.10.03-00.53.03:945][250]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A832954-4D73-11BE-380C-8499E669E403%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=374af613e189463fb2a859131b273772%7Cc37afbdba45940a388cb86cebbceebce%7C148772e5-556a-49f6-bc4c-a714d2991da6&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.10.03-00.53.04:511][250]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.03-00.53.04:518][250]RenderDocPlugin: plugin has been unloaded.
+[2026.10.03-00.53.04:521][250]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.03-00.53.04:530][250]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.10.03-00.53.04:531][250]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.10.03-00.53.04:531][250]LogPakFile: Destroying PakPlatformFile
+[2026.10.03-00.53.04:537][250]LogD3D11RHI: Shutdown
+[2026.10.03-00.53.04:538][250]LogD3D11RHI: CleanupD3DDevice
+[2026.10.03-00.53.04:582][250]LogD3D11RHI: Intel Extensions Framework unloaded
+[2026.10.03-00.53.04:605][250]LogExit: Exiting.
+[2026.10.03-00.53.04:628][250]Log file closed, 10/02/26 20:53:04
