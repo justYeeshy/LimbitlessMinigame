@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Unreal Projects/LimbitlessMinigame/bitlessJam/Content/LimbitlessMinigame.umap",
+				"C:/Unreal Projects/LimbitlessMinigame/bitlessJam/Content/jamMinigame.uasset",
+				"C:/Unreal Projects/LimbitlessMinigame/bitlessJam/Plugins/MinigameCore/Content/Game/BP_jamMinigameGamemode.uasset",
+				"C:/Unreal Projects/LimbitlessMinigame/bitlessJam/Content/BP_jamMinigameGamemode.uasset",
+				"C:/Unreal Projects/LimbitlessMinigame/bitlessJam/Plugins/MinigameCore/Content/Game/BP_MinigamePlayerSpawn.uasset"
+			]
+		}
+	]
+}
